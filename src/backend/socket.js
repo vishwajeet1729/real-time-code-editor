@@ -8,5 +8,5 @@ export const initSocket = async () => {
         transports: ['websocket'],
     };
 
-    return io('https://real-time-code-editor-backedn.vercel.app', options); // Ensure this matches your backend server's URL
+    return io('real-time-code-editor-production-9d79.up.railway.app', options); // Ensure this matches your backend server's URL
 };
