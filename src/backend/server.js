@@ -8,7 +8,7 @@ const ACTIONS = require('./Actions');
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://real-time-code-editor-sigma.vercel.app",
         methods: ["GET", "POST"],
         credentials: true
     }
