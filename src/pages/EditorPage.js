@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import toast from 'react-hot-toast';
-import ACTIONS from '../Actions';
+import ACTIONS from '../backend/Actions';
 import Client from '../components/Client';
 import Editor from '../components/Editor';
-import { initSocket } from '../socket';
+import { initSocket } from '../backend/socket';
 import {
     useLocation,
     useNavigate,
